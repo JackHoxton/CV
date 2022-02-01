@@ -1,0 +1,136 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="en">
+  <!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+  <head>
+    <!-- Кодировка страницы -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Заголовок страницы в браузере -->
+    <title>CV</title>
+    <!-- Подключаем CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <!-- Отображаемое тело страницы -->
+  <body>
+    <table cellspacing="15">
+      <tr>
+        <td><img
+          src="https://sun9-34.userapi.com/impg/9S5Cg3wat9A34kq04xrUN_U0PqNyxSC6gsRBGQ/KPOQjDE-OUI.jpg?size=1280x1106&quality=95&sign=f498f97e37dbbfb842a9f967ba5d0876&type=album"
+          width="200"
+          alt="картинка не найдена"
+        /></td>
+        <td> <h1>Черний Роман</h1>
+          <p>
+            <em>Я студент закончивший <strong>университет</strong></em>
+            <p><i>Я люблю заниматься музыкой и програмированием</i></p></td>
+      </tr>
+    </table>
+    
+    </p>
+    <!-- Тег Strong позволяет сделать текст жирным -->
+    <!-- тег em позволяет в html сделать текст курсивом -->
+
+    <!-- Тег i не стоит использовать потому что он устарел -->
+    <hr />
+    <!-- Тег hr позволяет сделать горизонтальную линию разделения страницы -->
+
+    <h2>Мои социальные сети</h2>
+
+    <!-- Тег Ul - это не нумерованный список -->
+    <ul>
+      <li>
+        <a href="//vk.com/n.burk_19972018" target="blank"
+          >//vk.com/n.burk_19972018</a
+        >
+      </li>
+      <li><a href="//mail.ru/" target="blank">//mail.ru/</a></li>
+      <li>
+        <a
+          href="https://www.linkedin.com/in/%D1%80%D0%BE%D0%BC%D0%B0%D0%BD-%D1%87%D0%B5%D1%80%D0%BD%D0%B8%D0%B9-73a678227/"
+          target="blank"
+          >https://www.linkedin.com/in/%D1%80%D0%BE%D0%BC%D0%B0%D0%BD-%D1%87%D0%B5%D1%80%D0%BD%D0%B8%D0%B9-73a678227/
+        </a>
+      </li>
+    </ul>
+    <hr />
+    <h2>Мои хобби</h2>
+
+    <!-- Тег ol - это нумерованный список -->
+    <ol type="I">
+      <li>Пианист</li>
+      <li>Езда на лыжах</li>
+      <li>Коллекционирование</li>
+    </ol>
+    <hr />
+    <h2>Моя музыка</h2>
+    <a href="soundcloud.html">открыть ссылки</a>
+
+    <!-- Тег Table используется для создания таблиц -->
+    <!-- Тег Tr используется для обозначения того что мы начали и закончили строчку -->
+    <!-- Тег td - это Table data  -->
+    <!-- тег border используется для создания границ таблицы - он устарел -->
+    <!-- Тег th - table header  -->
+    <!-- тег thead - table head остальные по анологий -->
+    <hr />
+    <h2>Опыт работы</h2>
+    <table border="2">
+      <thead>
+        <tr>
+          <th>Опыт</th>
+          <th>Работы</th>
+          <th>да?</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>никакой</td>
+          <td>никакой</td>
+          <td>никакой</td>
+        </tr>
+        <tr>
+          <td>никакой</td>
+          <td>никакой</td>
+          <td>никакой</td>
+        </tr>
+        <tr>
+          <td>никакой</td>
+          <td>никакой</td>
+          <td>никакой</td>
+        </tr>
+      </tbody>
+      <tfoot></tfoot>
+    </table>
+    <hr />
+
+    <h2>Связаться со мной</h2>
+    <!-- Атрибут action - в нем мы должны указать по какому пути будет обрабатываться эта форма  -->
+    <form action="/">
+      <!-- label - это текст перед формой заполнения -->
+      <label for="name">Ваше имя:</label>
+      <!-- input - это форма для заполнения -->
+      <input type="text" id="name" placeholder="Введите имя...">
+      <!-- Если атрибут ID и For совпадают, то при нажатий на ВАШЕ ИМЯ, будет включаться ввод в форму -->
+      <br>
+      <label for="mail">Ваш email</label>
+      <input type="email" id="mail" placeholder="Введите email...">
+      <input type="number">
+      <input type="color">
+      <input type="password">
+      <input type="date">
+      <input type="range">
+      <input type="checkbox">
+      <input type="radio">
+      <br>
+      <!-- атрибут value работает для всех input -->
+      <input type="submit" value="Связаться">
+      <!-- input type - очень много, обо всех можно прочитать в документаций MDN -->
+  <label for="text">Ваше сообщение:</label>
+  <br>
+  <textarea name="" id="text" cols="5" rows="2"></textarea>
+    </form>
+
+  </body>
+</html>
